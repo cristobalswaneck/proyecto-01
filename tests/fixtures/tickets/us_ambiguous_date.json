@@ -1,0 +1,35 @@
+{
+  "vendor": "Corner Market Demo",
+  "expense_date": null,
+  "date_ambiguous": true,
+  "purchase_time": "08:05",
+  "base_amount": null,
+  "vat_amount": null,
+  "total_amount": 12.7,
+  "currency": "USD",
+  "category": "Alimentación",
+  "payment_method": "card",
+  "confidence": 0.9,
+  "items": [
+    {
+      "raw_description": "BANANAS",
+      "product_normalized": "Plátano",
+      "product_category": "Frutas y verduras",
+      "quantity": 1.2,
+      "unit": "kg",
+      "unit_price": 0.59,
+      "discount": null,
+      "line_total": 0.71
+    },
+    {
+      "raw_description": "COFFEE BEANS",
+      "product_normalized": "Café en grano",
+      "product_category": "Despensa",
+      "quantity": 1,
+      "unit": "ud",
+      "unit_price": 11.99,
+      "discount": null,
+      "line_total": 11.99
+    }
+  ]
+}

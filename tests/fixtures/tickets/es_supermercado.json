@@ -1,0 +1,75 @@
+{
+  "vendor": "Supermercado Ficticio",
+  "expense_date": "2026-09-14",
+  "date_ambiguous": false,
+  "purchase_time": "18:42",
+  "base_amount": 14.55,
+  "vat_amount": 1.45,
+  "total_amount": 16.0,
+  "currency": "EUR",
+  "category": "Alimentación",
+  "payment_method": "card",
+  "confidence": 0.9,
+  "items": [
+    {
+      "raw_description": "LECHE ENT 1L",
+      "product_normalized": "Leche entera",
+      "product_category": "Lácteos y huevos",
+      "quantity": 2,
+      "unit": "ud",
+      "unit_price": 0.89,
+      "discount": null,
+      "line_total": 1.78
+    },
+    {
+      "raw_description": "MANZANA GOLDEN",
+      "product_normalized": "Manzana golden",
+      "product_category": "Frutas y verduras",
+      "quantity": 0.732,
+      "unit": "kg",
+      "unit_price": 2.49,
+      "discount": null,
+      "line_total": 1.82
+    },
+    {
+      "raw_description": "PAN BARRA",
+      "product_normalized": "Pan de barra",
+      "product_category": "Panadería",
+      "quantity": 1,
+      "unit": "ud",
+      "unit_price": 0.65,
+      "discount": null,
+      "line_total": 0.65
+    },
+    {
+      "raw_description": "DET. ROPA 3L",
+      "product_normalized": "Detergente ropa",
+      "product_category": "Limpieza",
+      "quantity": 1,
+      "unit": "ud",
+      "unit_price": 7.95,
+      "discount": 1.0,
+      "line_total": 6.95
+    },
+    {
+      "raw_description": "YOGUR NAT X4",
+      "product_normalized": "Yogur natural",
+      "product_category": "Lácteos y huevos",
+      "quantity": 2,
+      "unit": "ud",
+      "unit_price": 1.35,
+      "discount": null,
+      "line_total": 2.7
+    },
+    {
+      "raw_description": "AGUA 6X1.5L",
+      "product_normalized": "Agua mineral",
+      "product_category": "Bebidas",
+      "quantity": 1,
+      "unit": "ud",
+      "unit_price": 2.1,
+      "discount": null,
+      "line_total": 2.1
+    }
+  ]
+}
