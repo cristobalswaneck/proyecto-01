@@ -1,0 +1,45 @@
+{
+  "vendor": "Fleca Ficticia",
+  "expense_date": "2026-10-03",
+  "date_ambiguous": false,
+  "purchase_time": "09:15",
+  "base_amount": 8.09,
+  "vat_amount": 0.81,
+  "total_amount": 8.9,
+  "currency": "EUR",
+  "category": "Alimentación",
+  "payment_method": "cash",
+  "confidence": 0.9,
+  "items": [
+    {
+      "raw_description": "BARRA RUSTICA",
+      "product_normalized": "Pan rústico",
+      "product_category": "Panadería",
+      "quantity": 2,
+      "unit": "ud",
+      "unit_price": 1.4,
+      "discount": null,
+      "line_total": 2.8
+    },
+    {
+      "raw_description": "CROISSANT",
+      "product_normalized": "Cruasán",
+      "product_category": "Panadería",
+      "quantity": 3,
+      "unit": "ud",
+      "unit_price": 1.2,
+      "discount": null,
+      "line_total": 3.6
+    },
+    {
+      "raw_description": "ENSAIMADA",
+      "product_normalized": "Ensaimada",
+      "product_category": "Snacks y dulces",
+      "quantity": 1,
+      "unit": "ud",
+      "unit_price": 2.5,
+      "discount": null,
+      "line_total": 2.5
+    }
+  ]
+}
