@@ -49,7 +49,18 @@ Notas de producto:
 - Para que la inflación diga algo hace falta que un mismo producto tenga el mismo nombre normalizado entre tickets (W3) y varios meses de datos.
 
 ## Despliegue en Railway (resumen; se completa en W5)
-- Variables: `NODE_ENV=production`, `APP_PASSWORD`, `SESSION_SECRET`, `DATA_DIR=/data`, `ANTHROPIC_API_KEY`, `EXTRACTOR=claude`.
-- **Volumen** montado en `/data`: el disco de Railway se borra en cada despliegue, y ahí viven la base y las imágenes.
-- Una sola instancia (SQLite no admite varias escribiendo). Comprobación de salud: `/health`.
-- Build: `npm run build`; arranque: `npm start`.
+1. Crea el servicio desde este repositorio (rama `main`). Build: `npm run build`; arranque: `npm start`.
+2. **Variables obligatorias** (sin ellas la app se niega a arrancar, a propósito, porque guarda datos privados):
+
+   | Variable | Valor |
+   |---|---|
+   | `NODE_ENV` | `production` |
+   | `APP_PASSWORD` | la contraseña de acceso a la web |
+   | `SESSION_SECRET` | cadena aleatoria de 16+ caracteres (`node -e "console.log(require('crypto').randomBytes(32).toString('hex'))"`) |
+
+   Después, cuando haya lector real: `EXTRACTOR=claude` y `ANTHROPIC_API_KEY`.
+3. **Volumen** montado en `/data` y `DATA_DIR=/data`: el disco de Railway se borra en cada despliegue, y ahí viven la base y las imágenes. Sin volumen, **los datos se pierden en cada despliegue**.
+4. Una sola instancia (SQLite no admite varias escribiendo). Comprobación de salud: `/health`.
+
+Los paquetes necesarios para compilar (`typescript`, `@types/*`) están en `dependencies` a propósito:
+si Railway instala con `NODE_ENV=production`, las `devDependencies` se omiten y la compilación fallaría.
