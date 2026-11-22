@@ -5,7 +5,7 @@ from gastos import evaluate
 from gastos.models import ExtractedReceipt
 from gastos.validators import validate_items
 
-FIXTURES = Path(__file__).parent / "fixtures" / "tickets"
+FIXTURES = Path(__file__).resolve().parents[2] / "fixtures" / "tickets"
 
 
 def refs():

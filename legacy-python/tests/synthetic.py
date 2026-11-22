@@ -1,6 +1,6 @@
 """Genera tickets de prueba (PNG/JPG) con su JSON de referencia.
 
-    python -m tests.synthetic
+    python -m tests.synthetic  (desde legacy-python/)
 
 Son inventados: nombres, direcciones y tarjetas no existen. Salen limpios; los marcados
 `messy` se giran y comprimen para parecerse algo más a una foto real. Aun así NO
@@ -12,7 +12,7 @@ from pathlib import Path
 
 from PIL import Image, ImageDraw, ImageFilter, ImageFont
 
-OUT = Path(__file__).parent / "fixtures" / "tickets"
+OUT = Path(__file__).resolve().parents[2] / "fixtures" / "tickets"
 
 
 def line(desc, qty, price, discount=None, unit="ud", cat="Despensa", norm=None):

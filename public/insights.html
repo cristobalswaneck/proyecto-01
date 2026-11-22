@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Análisis · Gastos</title><link rel="icon" href="data:,"><link rel="stylesheet" href="/styles.css"></head>
+<body><main>
+<h1>Análisis</h1>
+<div id="stats" class="grid"></div>
+<p id="excluded" class="muted"></p>
+<h2>Gasto por mes y categoría</h2>
+<div class="card"><div class="chart-box"><canvas id="monthly" role="img" aria-label="Gasto mensual por categoría"></canvas></div><p id="monthly-empty" class="empty" hidden>Aún no hay tickets confirmados en EUR. Sube uno y confírmalo.</p></div>
+<h2>Comercios</h2>
+<div class="card table-wrap"><table><thead><tr><th>Comercio</th><th class="num">Total</th><th class="num">Tickets</th><th class="num">Ticket medio</th></tr></thead><tbody id="vendors"></tbody></table></div>
+<h2>Evolución del precio de un producto</h2>
+<div class="card">
+  <select id="product" aria-label="Producto"><option value="">Elige un producto…</option></select>
+  <p id="change" class="muted"></p>
+  <div class="chart-box" id="price-box" hidden><canvas id="price" role="img" aria-label="Evolución del precio unitario"></canvas></div>
+  <p id="price-empty" class="empty" hidden>Todavía no hay productos con compras utilizables (solo cuentan tickets confirmados, en EUR y con las líneas cuadradas).</p>
+</div>
+</main>
+<script src="/vendor/chart/chart.umd.js"></script>
+<script type="module" src="/insights.js"></script></body></html>
