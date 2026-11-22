@@ -1,0 +1,45 @@
+{
+  "vendor": "The Imaginary Lion Pub",
+  "expense_date": "2026-09-25",
+  "date_ambiguous": false,
+  "purchase_time": "20:10",
+  "base_amount": 44.67,
+  "vat_amount": 8.93,
+  "total_amount": 53.6,
+  "currency": "GBP",
+  "category": "Restauración",
+  "payment_method": "card",
+  "confidence": 0.9,
+  "items": [
+    {
+      "raw_description": "FISH & CHIPS",
+      "product_normalized": "Fish and chips",
+      "product_category": "Otros",
+      "quantity": 2,
+      "unit": "ud",
+      "unit_price": 14.5,
+      "discount": null,
+      "line_total": 29.0
+    },
+    {
+      "raw_description": "PINT LAGER",
+      "product_normalized": "Pinta de cerveza",
+      "product_category": "Bebidas",
+      "quantity": 3,
+      "unit": "ud",
+      "unit_price": 5.8,
+      "discount": null,
+      "line_total": 17.4
+    },
+    {
+      "raw_description": "STICKY TOFFEE PUD",
+      "product_normalized": "Pudin de toffee",
+      "product_category": "Snacks y dulces",
+      "quantity": 1,
+      "unit": "ud",
+      "unit_price": 7.2,
+      "discount": null,
+      "line_total": 7.2
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "vendor": "Supermercat Imaginari",
+  "expense_date": "2026-10-08",
+  "date_ambiguous": false,
+  "purchase_time": "19:20",
+  "base_amount": 29.45,
+  "vat_amount": 2.94,
+  "total_amount": 32.39,
+  "currency": "EUR",
+  "category": "Alimentación",
+  "payment_method": "card",
+  "confidence": 0.8,
+  "items": [
+    {
+      "raw_description": "LLET SEMI 1L",
+      "product_normalized": "Leche semidesnatada",
+      "product_category": "Lácteos y huevos",
+      "quantity": 6,
+      "unit": "ud",
+      "unit_price": 0.92,
+      "discount": null,
+      "line_total": 5.52
+    },
+    {
+      "raw_description": "OUS L X12",
+      "product_normalized": "Huevos",
+      "product_category": "Lácteos y huevos",
+      "quantity": 1,
+      "unit": "ud",
+      "unit_price": 3.15,
+      "discount": null,
+      "line_total": 3.15
+    },
+    {
+      "raw_description": "POLLASTRE",
+      "product_normalized": "Pollo",
+      "product_category": "Carne y pescado",
+      "quantity": 1.104,
+      "unit": "kg",
+      "unit_price": 6.9,
+      "discount": null,
+      "line_total": 7.62
+    },
+    {
+      "raw_description": "PASTA 500G",
+      "product_normalized": "Pasta",
+      "product_category": "Despensa",
+      "quantity": 2,
+      "unit": "ud",
+      "unit_price": 1.05,
+      "discount": null,
+      "line_total": 2.1
+    },
+    {
+      "raw_description": "PAPER HIG 12U",
+      "product_normalized": "Papel higiénico",
+      "product_category": "Higiene",
+      "quantity": 1,
+      "unit": "ud",
+      "unit_price": 4.8,
+      "discount": 0.8,
+      "line_total": 4.0
+    },
+    {
+      "raw_description": "CERVESA 33CL X6",
+      "product_normalized": "Cerveza",
+      "product_category": "Bebidas",
+      "quantity": 1,
+      "unit": "ud",
+      "unit_price": 4.5,
+      "discount": null,
+      "line_total": 4.5
+    },
+    {
+      "raw_description": "GALETES",
+      "product_normalized": "Galletas",
+      "product_category": "Snacks y dulces",
+      "quantity": 2,
+      "unit": "ud",
+      "unit_price": 1.65,
+      "discount": null,
+      "line_total": 3.3
+    },
+    {
+      "raw_description": "SABO MANS",
+      "product_normalized": "Jabón de manos",
+      "product_category": "Higiene",
+      "quantity": 1,
+      "unit": "ud",
+      "unit_price": 2.2,
+      "discount": null,
+      "line_total": 2.2
+    }
+  ]
+}

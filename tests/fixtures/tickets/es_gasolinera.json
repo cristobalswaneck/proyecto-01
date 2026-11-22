@@ -1,0 +1,25 @@
+{
+  "vendor": "Estación de Servicio Demo",
+  "expense_date": "2026-09-30",
+  "date_ambiguous": false,
+  "purchase_time": "07:55",
+  "base_amount": 48.89,
+  "vat_amount": 10.27,
+  "total_amount": 59.16,
+  "currency": "EUR",
+  "category": "Transporte",
+  "payment_method": "card",
+  "confidence": 0.9,
+  "items": [
+    {
+      "raw_description": "GASOLINA 95",
+      "product_normalized": "Gasolina 95",
+      "product_category": "Otros",
+      "quantity": 40.55,
+      "unit": "l",
+      "unit_price": 1.459,
+      "discount": null,
+      "line_total": 59.16
+    }
+  ]
+}

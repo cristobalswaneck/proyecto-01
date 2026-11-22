@@ -22,6 +22,14 @@ UNITS = ("ud", "kg", "l")
 PAYMENT_METHODS = ("card", "cash", "other")
 
 
+# Precio en USD por millón de tokens (entrada, salida). Para estimar el coste por ticket.
+PRICING_PER_MTOK = {
+    "claude-sonnet-5-5": (2.00, 10.00),
+    "claude-haiku-4-5": (1.00, 5.00),
+    "claude-haiku-5-5": (0.10, 0.50),
+}
+
+
 @dataclass(frozen=True)
 class Settings:
     anthropic_api_key: str

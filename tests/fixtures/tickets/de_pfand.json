@@ -1,0 +1,55 @@
+{
+  "vendor": "Beispiel Markt GmbH",
+  "expense_date": "2026-09-21",
+  "date_ambiguous": false,
+  "purchase_time": "16:30",
+  "base_amount": 8.39,
+  "vat_amount": 0.59,
+  "total_amount": 8.98,
+  "currency": "EUR",
+  "category": "Alimentación",
+  "payment_method": "card",
+  "confidence": 0.9,
+  "items": [
+    {
+      "raw_description": "VOLLMILCH 1L",
+      "product_normalized": "Leche entera",
+      "product_category": "Lácteos y huevos",
+      "quantity": 3,
+      "unit": "ud",
+      "unit_price": 1.19,
+      "discount": null,
+      "line_total": 3.57
+    },
+    {
+      "raw_description": "BROT",
+      "product_normalized": "Pan",
+      "product_category": "Panadería",
+      "quantity": 1,
+      "unit": "ud",
+      "unit_price": 2.99,
+      "discount": null,
+      "line_total": 2.99
+    },
+    {
+      "raw_description": "PFAND",
+      "product_normalized": "Depósito de envase",
+      "product_category": "Otros",
+      "quantity": 3,
+      "unit": "ud",
+      "unit_price": 0.25,
+      "discount": null,
+      "line_total": 0.75
+    },
+    {
+      "raw_description": "TOMATEN",
+      "product_normalized": "Tomate",
+      "product_category": "Frutas y verduras",
+      "quantity": 0.418,
+      "unit": "kg",
+      "unit_price": 3.99,
+      "discount": null,
+      "line_total": 1.67
+    }
+  ]
+}
