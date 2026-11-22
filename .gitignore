@@ -7,4 +7,6 @@ data/
 *.db
 *.db-wal
 *.db-shm
-tests/fixtures/tickets/_runs/
+fixtures/tickets/_runs/
+node_modules/
+dist/

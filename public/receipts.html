@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tickets · Gastos</title><link rel="icon" href="data:,"><link rel="stylesheet" href="/styles.css"></head>
+<body><main>
+<h1>Tickets</h1>
+<div class="filters">
+  <select id="status"><option value="">Todos los estados</option><option value="pending">Pendientes</option><option value="review">A revisar</option><option value="confirmed">Confirmados</option><option value="rejected">Descartados</option></select>
+  <select id="category"><option value="">Todas las categorías</option></select>
+  <input id="month" type="month" aria-label="Mes">
+  <input id="q" type="search" placeholder="Comercio…" aria-label="Buscar comercio">
+</div>
+<div id="detail"></div>
+<div class="card table-wrap"><table><thead><tr><th>Fecha</th><th>Comercio</th><th>Categoría</th><th class="num">Total</th><th>Estado</th></tr></thead><tbody id="rows"></tbody></table><p id="empty" class="empty" hidden>No hay tickets con estos filtros.</p></div>
+</main><script type="module" src="/receipts.js"></script></body></html>
